@@ -21,7 +21,6 @@ body{
 }
 
 #display{
-    display: flex;
     justify-content: flex-start;
     padding: 10px;
     gap: 5px;
@@ -29,20 +28,21 @@ body{
     
 }
 
+li {
+  list-style-type: none;
+}
 .card{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(41, 23, 204);
     background-color: rgba(160, 174, 201, 0.993);
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
-    text-align: center;
     border-radius: 10px;
 
 }
 
-.img_noticia{
-    width: 100%;
-    height: 300px;
+.img_card{
+    width: 200px;
+    height: auto;
     object-fit: cover;
 }
