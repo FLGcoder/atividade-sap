@@ -51,4 +51,7 @@ body{
 
 */
 
-
+.texto_article{
+    display: flex;
+    
+}
