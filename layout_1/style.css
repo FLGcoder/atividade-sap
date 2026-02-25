@@ -53,5 +53,30 @@ body{
 
 .texto_article{
     display: flex;
-    
+    padding-top: 5px
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+.td{
+    padding: 15px;
+}
+
+.td_blue{
+    padding: 15px;
+    background-color: rgb(1, 123, 196);
+}
+
+.td_select{
+    background-color: rgb(196, 224, 235);
+}
+
+.navi_buttons{
+    display: flex;
+    gap: 7px;
+    background-color: rgb(221, 221, 221);
 }
