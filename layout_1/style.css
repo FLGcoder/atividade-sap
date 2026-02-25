@@ -8,7 +8,7 @@ body{
 #navbar{
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 4px 8px;
     background-color: rgb(221, 221, 221);
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,9 +17,22 @@ body{
 .navButtons{
     display: flex;
     background-color: rgb(221, 221, 221);
+    gap: 10px;
 }
 
 .icon_Buttons{
     width: 12px;
     height: 12px;
+}
+
+.top-bar {
+    height: 8px;
+    background: linear-gradient(
+        90deg,
+        #f7d774 0%,
+        #f3c45a 25%,
+        #f0b94f 50%,
+        #f3c45a 75%,
+        #f7d774 100%
+    );
 }
