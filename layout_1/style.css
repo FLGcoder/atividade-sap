@@ -92,3 +92,9 @@ table, th, td {
 =========================
 
 */
+
+.td_gray{
+    background-color: rgb(229, 229, 229);
+    padding: 15px;
+}
+
