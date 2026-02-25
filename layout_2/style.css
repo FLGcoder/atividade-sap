@@ -14,10 +14,11 @@
     font-size: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    h5 {    
+    h5 {   
+    background-color:rgb(1, 50, 122) ;
     padding: 10px;
     border-radius: 15px;
-    color: rgb(1, 50, 122);
+    color: rgb(255, 255, 255);
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -166,4 +167,21 @@
     p {
         margin: 5px;
     }
+}
+
+#display2{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#card3{
+    background-color: rgb(201, 226, 247);
+    border: 0px;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 20px;
+    margin: 10 0;
+    flex: 1.7;
+    justify-content: space-between;
 }
