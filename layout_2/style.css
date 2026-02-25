@@ -9,24 +9,26 @@
     flex-wrap: wrap;
 }
 
-#texto1{
-    color: rgb(25, 0, 255);
+.texto1{
+    color: rgb(1, 50, 122);
     font-size: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    background-color: rgb(99, 182, 255);
+    h5 {    
     padding: 10px;
     border-radius: 15px;
-    color: white;
-    max-width: 110px;
-    text-align: center;
+    color: rgb(1, 50, 122);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .setas1{
-    background-color: white;  
+    background-color: rgb(255, 255, 255);  
     border-radius: 20px;
+    }
 }
-
 .seta1{
     height: 30px;
     width: 30px;
@@ -92,4 +94,76 @@
     padding-right: 10px;
     margin-right: 15px;
     color: rgb(0, 67, 167);
+}
+
+.mais1{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mais{
+    background-color: white;
+    padding: 10px;
+    width:12px ;
+    height:12px ;
+    border-radius: 150px;
+}
+
+#lista2{
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0 25px;
+    padding-bottom: 5px;
+}
+
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 0px;
+    color: rgb(0, 67, 167);
+}
+
+.tab2{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    padding: 1px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    margin: 6px;
+    font-weight: bold;
+    padding: 0 6px;
+}
+
+.proc1{
+    background-color: greenyellow;
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
+}
+
+.proc2{
+    background-color: rgb(253, 214, 39);
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
+}
+
+.proc3{
+    background-color: rgb(255, 78, 47);
+    border-radius: 7px;
+    margin: 6px;
+    p {
+        margin: 5px;
+    }
 }
